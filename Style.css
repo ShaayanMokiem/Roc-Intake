@@ -1,0 +1,99 @@
+.logo {
+    height: 20%;
+    width: 15%;
+    padding: 5px;
+}
+
+.titel {
+    text-align: center;
+    font-size: 100px;
+    display: block;
+    text-decoration: none;
+}
+
+.blok {
+    border-style: solid;
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.blokje {
+    border-style: solid;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+/*Als de div de class blok EN ruimte heeft*/
+.blokje.ruimte {
+    /*Set de breedte op 100% - (2 * 10px (padding)))*/
+    /*Set !important; om de orginele width te overschrijven*/
+    width: calc(100% - 20px) !important;
+}
+
+.kolom {
+    width: 30%;
+    height: 100%;
+}
+
+/*Als de div de class blok EN ruimte heeft*/
+.blok.ruimte {
+    /*Set de breedte op 100% - (2 * 10px (padding)))*/
+    /*Set !important; om de orginele width te overschrijven*/
+    width: calc(100% - 20px) !important;
+}
+
+.ruimte {
+    padding: 10px;
+}
+
+.plaatje {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: #a6affd;
+    margin: 0;
+}
+
+.overflow {
+    overflow: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.margins {
+    margin: auto;
+}
+
+@font-face {
+    font-family: "FuturaRound";
+    src: url("FuturaRound.ttf");
+}
+
+* {
+    font-family: "FuturaRound";
+    color: #0F2D5B;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #D13028;
+    float: right;
+    padding-left: 10px;
+    border-left: 3px solid black;
+}
+
+.navigatie {
+    border-bottom: 3px solid black;
+}
